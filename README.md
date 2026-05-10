@@ -1,37 +1,33 @@
-# Professional-File-Automation-Tool
-Project Purpose  This project was created to reduce repetitive manual file management work and improve productivity through automation. It is suitable for students, office users, photographers, freelancers, and anyone who works with large numbers of files.
-A modern Python desktop application designed to automate daily file management tasks with a clean and professional dashboard interface.
+# Professional File Automation Tool
 
-## Overview
-
-Professional File Automation Tool helps users rename bulk images, organize files by type, merge PDF files, search files by keyword, and detect duplicate files with delete or move options. The application is built with Python and CustomTkinter and includes a modern dark dashboard UI.
+A modern desktop automation software built with Python and CustomTkinter.
 
 ## Features
 
-- Bulk image renaming with custom prefix
-- Automatic file organization by file type
-- PDF merger
-- File search by keyword
-- Duplicate file finder
-- Option to move or delete duplicate files
-- Modern dark dashboard UI
-- Progress bar and live status updates
-- File counters dashboard
-- EXE build support using PyInstaller
+* Bulk Image Renaming
+* File Organizer
+* PDF Merger
+* File Search Tool
+* Duplicate File Finder
+* Progress Tracking
+* Modern Dashboard UI
+* Multi-threading Support
 
 ## Technologies Used
 
-- Python
-- CustomTkinter
-- Tkinter
-- PyPDF2
-- OS module
-- Shutil
-- Hashlib
+* Python
+* CustomTkinter
+* PyPDF2
+* Threading
+* File Handling
 
-## Project Screenshots
+## Screenshots
 
-Add your screenshots inside the `screenshots` folder.
+(Add screenshots here)
 
-```text
-screenshots/dashboard.png
+## Run Project
+
+```bash
+pip install -r requirements.txt
+python modern_gui_app.py
+```
